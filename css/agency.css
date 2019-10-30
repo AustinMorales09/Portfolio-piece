@@ -95,7 +95,7 @@ img::-moz-selection {
 
 .btn-primary {
   background-color: #2B7A79;
-  border-color: #36fe9a;
+  border-color: white;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -110,6 +110,7 @@ img::-moz-selection {
 
 #mainNav {
   background-color: #212529;
+  background-attachment: 
 }
 
 #mainNav .navbar-toggler {
@@ -129,7 +130,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #3AAFA9;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -142,7 +143,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #3AAFA9;
 }
 
 @media (min-width: 992px) {
@@ -227,7 +228,9 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
 }
-
+.height  {
+ height: 400px;
+}
 
 .service-heading {
   margin: 15px 0;
@@ -321,6 +324,7 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-content {
   padding: 100px 0;
   text-align: center;
+  height: auto;
 }
 
 .portfolio-modal .modal-content h2 {
